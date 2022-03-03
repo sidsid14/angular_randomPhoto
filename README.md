@@ -1,10 +1,19 @@
-# Photos
+# Photos App
 
+This app displays random photos on button click.
+
+- Makes use of unsplash developer api to get image response.
+- Image service is used for handling http requests.
+- Bulma css is used for displaying the image.
+
+![Screenshot](https://user-images.githubusercontent.com/27942487/156605112-41b9ade8-2155-42d4-b32f-7f39eba4b5b4.png)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Edit `environment.prod.ts` and `environment.ts` with the unsplash api key.
+
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
